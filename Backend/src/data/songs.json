@@ -1,0 +1,504 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "year": 1975,
+      "genre": "Rock",
+      "duration": "5:55",
+      "url": "https://example.com/songs/bohemian-rhapsody"
+    },
+    {
+      "id": "2",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "genre": "Pop",
+      "duration": "4:54",
+      "url": "https://example.com/songs/billie-jean"
+    },
+    {
+      "id": "3",
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "year": 1987,
+      "genre": "Rock",
+      "duration": "5:56",
+      "url": "https://example.com/songs/sweet-child-o-mine"
+    },
+    {
+      "id": "4",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile Soundtrack",
+      "year": 2002,
+      "genre": "Hip Hop",
+      "duration": "5:26",
+      "url": "https://example.com/songs/lose-yourself"
+    },
+    {
+      "id": "5",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "genre": "Pop",
+      "duration": "3:48",
+      "url": "https://example.com/songs/rolling-in-the-deep"
+    },
+    {
+      "id": "6",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "year": 1977,
+      "genre": "Rock",
+      "duration": "6:30",
+      "url": "https://example.com/songs/hotel-california"
+    },
+    {
+      "id": "7",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "year": 2017,
+      "genre": "Pop",
+      "duration": "3:53",
+      "url": "https://example.com/songs/shape-of-you"
+    },
+    {
+      "id": "8",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "year": 1971,
+      "genre": "Rock",
+      "duration": "8:02",
+      "url": "https://example.com/songs/stairway-to-heaven"
+    },
+    {
+      "id": "9",
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson ft. Bruno Mars",
+      "album": "Uptown Special",
+      "year": 2014,
+      "genre": "Funk",
+      "duration": "4:30",
+      "url": "https://example.com/songs/uptown-funk"
+    },
+    {
+      "id": "10",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991,
+      "genre": "Grunge",
+      "duration": "5:01",
+      "url": "https://example.com/songs/smells-like-teen-spirit"
+    },
+    {
+      "id": "11",
+      "title": "Bad Guy",
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "year": 2019,
+      "genre": "Pop",
+      "duration": "3:14",
+      "url": "https://example.com/songs/bad-guy"
+    },
+    {
+      "id": "12",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "album": "Purple Rain",
+      "year": 1984,
+      "genre": "Rock",
+      "duration": "8:41",
+      "url": "https://example.com/songs/purple-rain"
+    },
+    {
+      "id": "13",
+      "title": "Despacito",
+      "artist": "Luis Fonsi & Daddy Yankee ft. Justin Bieber",
+      "album": "Vida",
+      "year": 2017,
+      "genre": "Reggaeton Pop",
+      "duration": "3:48",
+      "url": "https://example.com/songs/despacito"
+    },
+    {
+      "id": "14",
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "album": "Sweet Dreams",
+      "year": 1983,
+      "genre": "New Wave",
+      "duration": "3:36",
+      "url": "https://example.com/songs/sweet-dreams"
+    },
+    {
+      "id": "15",
+      "title": "In the End",
+      "artist": "Linkin Park",
+      "album": "Hybrid Theory",
+      "year": 2000,
+      "genre": "Alternative Rock",
+      "duration": "3:36",
+      "url": "https://example.com/songs/in-the-end"
+    },
+    {
+      "id": "16",
+      "title": "All Star",
+      "artist": "Smash Mouth",
+      "album": "Astro Lounge",
+      "year": 1999,
+      "genre": "Alternative Rock",
+      "duration": "3:21",
+      "url": "https://example.com/songs/all-star"
+    },
+    {
+      "id": "17",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "year": 1995,
+      "genre": "Britpop",
+      "duration": "4:18",
+      "url": "https://example.com/songs/wonderwall"
+    },
+    {
+      "id": "18",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "album": "The Beatles (White Album)",
+      "year": 1968,
+      "genre": "Rock",
+      "duration": "7:11",
+      "url": "https://example.com/songs/hey-jude"
+    },
+    {
+      "id": "19",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020,
+      "genre": "Synth-pop",
+      "duration": "3:20",
+      "url": "https://example.com/songs/blinding-lights"
+    },
+    {
+      "id": "20",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "year": 1965,
+      "genre": "Folk Rock",
+      "duration": "6:13",
+      "url": "https://example.com/songs/like-a-rolling-stone"
+    },
+    {
+      "id": "21",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "album": "Imagine",
+      "year": 1971,
+      "genre": "Rock",
+      "duration": "3:03",
+      "url": "https://example.com/songs/imagine"
+    },
+    {
+      "id": "22",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "genre": "Pop",
+      "duration": "5:57",
+      "url": "https://example.com/songs/thriller"
+    },
+    {
+      "id": "23",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Second Helping",
+      "year": 1974,
+      "genre": "Southern Rock",
+      "duration": "4:41",
+      "url": "https://example.com/songs/sweet-home-alabama"
+    },
+    {
+      "id": "24",
+      "title": "Smooth Criminal",
+      "artist": "Michael Jackson",
+      "album": "Bad",
+      "year": 1987,
+      "genre": "Pop",
+      "duration": "4:17",
+      "url": "https://example.com/songs/smooth-criminal"
+    },
+    {
+      "id": "25",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "album": "Metallica",
+      "year": 1991,
+      "genre": "Metal",
+      "duration": "6:28",
+      "url": "https://example.com/songs/nothing-else-matters"
+    },
+    {
+      "id": "26",
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "genre": "Pop",
+      "duration": "4:45",
+      "url": "https://example.com/songs/someone-like-you"
+    },
+    {
+      "id": "27",
+      "title": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "year": 1999,
+      "genre": "Alternative Rock",
+      "duration": "5:21",
+      "url": "https://example.com/songs/californication"
+    },
+    {
+      "id": "28",
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "album": "Viva la Vida or Death and All His Friends",
+      "year": 2008,
+      "genre": "Alternative Rock",
+      "duration": "4:01",
+      "url": "https://example.com/songs/viva-la-vida"
+    },
+    {
+      "id": "29",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "album": "Escape",
+      "year": 1981,
+      "genre": "Rock",
+      "duration": "4:11",
+      "url": "https://example.com/songs/dont-stop-believin"
+    },
+    {
+      "id": "30",
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "year": 2014,
+      "genre": "Pop",
+      "duration": "3:39",
+      "url": "https://example.com/songs/shake-it-off"
+    },
+    {
+      "id": "31",
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "album": "Saturday Night Fever",
+      "year": 1977,
+      "genre": "Disco",
+      "duration": "4:45",
+      "url": "https://example.com/songs/stayin-alive"
+    },
+    {
+      "id": "32",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "album": "Back in Black",
+      "year": 1980,
+      "genre": "Rock",
+      "duration": "4:15",
+      "url": "https://example.com/songs/back-in-black"
+    },
+    {
+      "id": "33",
+      "title": "Umbrella",
+      "artist": "Rihanna ft. Jay-Z",
+      "album": "Good Girl Gone Bad",
+      "year": 2007,
+      "genre": "R&B",
+      "duration": "4:35",
+      "url": "https://example.com/songs/umbrella"
+    },
+    {
+      "id": "34",
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity",
+      "year": 1983,
+      "genre": "Rock",
+      "duration": "4:13",
+      "url": "https://example.com/songs/every-breath-you-take"
+    },
+    {
+      "id": "35",
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "album": "In the Zone",
+      "year": 2003,
+      "genre": "Pop",
+      "duration": "3:19",
+      "url": "https://example.com/songs/toxic"
+    },
+    {
+      "id": "36",
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "year": 1972,
+      "genre": "Funk",
+      "duration": "4:26",
+      "url": "https://example.com/songs/superstition"
+    },
+    {
+      "id": "37",
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "album": "Hot Fuss",
+      "year": 2004,
+      "genre": "Alternative Rock",
+      "duration": "3:43",
+      "url": "https://example.com/songs/mr-brightside"
+    },
+    {
+      "id": "38",
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "album": "Arrival",
+      "year": 1976,
+      "genre": "Pop",
+      "duration": "3:51",
+      "url": "https://example.com/songs/dancing-queen"
+    },
+    {
+      "id": "39",
+      "title": "Crazy",
+      "artist": "Gnarls Barkley",
+      "album": "St. Elsewhere",
+      "year": 2006,
+      "genre": "Soul",
+      "duration": "2:58",
+      "url": "https://example.com/songs/crazy"
+    },
+    {
+      "id": "40",
+      "title": "Sweet Caroline",
+      "artist": "Neil Diamond",
+      "album": "Sweet Caroline",
+      "year": 1969,
+      "genre": "Pop Rock",
+      "duration": "3:20",
+      "url": "https://example.com/songs/sweet-caroline"
+    },
+    {
+      "id": "41",
+      "title": "Royals",
+      "artist": "Lorde",
+      "album": "Pure Heroine",
+      "year": 2013,
+      "genre": "Art Pop",
+      "duration": "3:10",
+      "url": "https://example.com/songs/royals"
+    },
+    {
+      "id": "42",
+      "title": "Paint It Black",
+      "artist": "The Rolling Stones",
+      "album": "Aftermath",
+      "year": 1966,
+      "genre": "Rock",
+      "duration": "3:45",
+      "url": "https://example.com/songs/paint-it-black"
+    },
+    {
+      "id": "43",
+      "title": "Wrecking Ball",
+      "artist": "Miley Cyrus",
+      "album": "Bangerz",
+      "year": 2013,
+      "genre": "Pop",
+      "duration": "3:41",
+      "url": "https://example.com/songs/wrecking-ball"
+    },
+    {
+      "id": "44",
+      "title": "Hallelujah",
+      "artist": "Jeff Buckley",
+      "album": "Grace",
+      "year": 1994,
+      "genre": "Folk Rock",
+      "duration": "6:53",
+      "url": "https://example.com/songs/hallelujah"
+    },
+    {
+      "id": "45",
+      "title": "Gangnam Style",
+      "artist": "PSY",
+      "album": "PSY 6 (Six Rules), Part 1",
+      "year": 2012,
+      "genre": "K-pop",
+      "duration": "3:39",
+      "url": "https://example.com/songs/gangnam-style"
+    },
+    {
+      "id": "46",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "album": "Pablo Honey",
+      "year": 1993,
+      "genre": "Alternative Rock",
+      "duration": "3:56",
+      "url": "https://example.com/songs/creep"
+    },
+    {
+      "id": "47",
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "album": "The Bodyguard",
+      "year": 1992,
+      "genre": "Pop",
+      "duration": "4:31",
+      "url": "https://example.com/songs/i-will-always-love-you"
+    },
+    {
+      "id": "48",
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "album": "Elephant",
+      "year": 2003,
+      "genre": "Alternative Rock",
+      "duration": "3:52",
+      "url": "https://example.com/songs/seven-nation-army"
+    },
+    {
+      "id": "49",
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "album": "The Fame",
+      "year": 2008,
+      "genre": "Pop",
+      "duration": "3:57",
+      "url": "https://example.com/songs/poker-face"
+    },
+    {
+      "id": "50",
+      "title": "Imagine Dragons",
+      "artist": "Radioactive",
+      "album": "Night Visions",
+      "year": 2012,
+      "genre": "Alternative Rock",
+      "duration": "3:06",
+      "url": "https://example.com/songs/radioactive"
+    }
+  ]
+}
