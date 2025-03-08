@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const searchRoutes = require('./routes/search.routes');
 const favoritesRoutes = require('./routes/favorites.routes');
 const authRoutes = require('./routes/auth.routes');
@@ -13,7 +14,9 @@ app.use(cors());
 app.use(express.json());
 
 const dataDir = path.join(__dirname, 'data');
-require('fs').mkdirSync(dataDir, { recursive: true });
+if (!fs.existsSync(dataDir)) {
+  fs.mkdirSync(dataDir, { recursive: true });
+}
 
 app.use('/api/auth', authRoutes);
 
