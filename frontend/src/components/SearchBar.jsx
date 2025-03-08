@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import TextField from '@mui/material/TextField';
-import InputAdornment from '@mui/material/InputAdornment';
+import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import ClearIcon from '@mui/icons-material/Clear';
@@ -25,28 +24,29 @@ const SearchBar = ({ onSearch, placeholder }) => {
 
   return (
     <Box sx={{ maxWidth: 600, mx: 'auto', mb: 4 }}>
-      <Paper elevation={1} sx={{ p: 0.5 }}>
-        <TextField
-          fullWidth
+      <Paper
+        elevation={1}
+        sx={{
+          p: '2px 4px',
+          display: 'flex',
+          alignItems: 'center',
+        }}
+      >
+        <SearchIcon sx={{ ml: 1, color: 'action.active' }} />
+        <InputBase
+          sx={{ ml: 1, flex: 1 }}
+          placeholder={placeholder}
+          inputProps={{
+            'aria-label': 'search music',
+          }}
           value={searchTerm}
           onChange={handleChange}
-          placeholder={placeholder || 'Search...'}
-          variant="outlined"
-          Props={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <SearchIcon color="action" />
-              </InputAdornment>
-            ),
-            endAdornment: searchTerm && (
-              <InputAdornment position="end">
-                <IconButton aria-label="clear search" onClick={handleClear} edge="end" size="small">
-                  <ClearIcon />
-                </IconButton>
-              </InputAdornment>
-            ),
-          }}
         />
+        {searchTerm && (
+          <IconButton size="small" onClick={handleClear} sx={{ mr: 0.5 }}>
+            <ClearIcon />
+          </IconButton>
+        )}
       </Paper>
     </Box>
   );
