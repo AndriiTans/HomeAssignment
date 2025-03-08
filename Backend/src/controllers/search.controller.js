@@ -3,7 +3,7 @@ const searchService = require('../services/search.service');
 class SearchController {
   async searchSongs(req, res) {
     try {
-      const query = req.query.search || '';
+      const query = req.query.searchBy || '';
       const results = await searchService.searchSongs(query);
       return res.json(results);
     } catch (error) {
